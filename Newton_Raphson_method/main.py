@@ -4,7 +4,7 @@ def newton_raphson(function, derivative, x, threshold, maxiter):
     consecutive guesses and max number of iterations: finds the closest root
     to the initial guess
 
-    return values are the root found and the number of iterations to find root
+    returns the root found and the number of iterations to find root
     otherwise return None value if no roots are found
 
     """
@@ -20,7 +20,10 @@ def newton_raphson(function, derivative, x, threshold, maxiter):
 
         return round(x_new, 3), i
     except OverflowError:
-        print("Error: Please check that your parameters are correct")
+        print(
+            """Error: Could not find root. Please check that your parameters
+are correct and try again."""
+        )
 
 
 if __name__ == "__main__":
@@ -30,6 +33,6 @@ if __name__ == "__main__":
     #
     # =============================================================================
 
-    y = lambda x: x**3 + 1
-    dy = lambda x: 3 * x
+    y = lambda x: x**2 + 1
+    dy = lambda x: 2 * x
     print(newton_raphson(y, dy, -10, 0.0001, 100))
