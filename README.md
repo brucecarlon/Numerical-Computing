@@ -50,3 +50,5 @@ darts at the sqaure and we have the following relations:
  We consider an under damped oscillator which can be modelled as
  
  $$ y(t) = A + Be^{-\gamma t}cos(\\omega t - \alpha  $$
+
+We use he Levenberg - Marquardt algorithm to minimize the chi-squared value and find the parameters that optimze the fit.
