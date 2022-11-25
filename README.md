@@ -32,3 +32,12 @@ a 2 x 2 square piece of paper with an inscribed circle of radius one, we then si
 darts at the sqaure and we have the following relations:
     
  $$\frac{number\ of\ dots\ inside\ circle}{total\ number\ of\ dots\} = \frac{area\ of\ circle}{area\ of\ square}$$
+ 
+ ## 3. Newton-Rampson Method
+ 
+    Given a function, its derivative, initial guess, threshold between two
+    consecutive guesses and max number of iterations: finds the closest root
+    to the initial guess.
+    
+    returns the root found and the number of iterations to find root
+    otherwise return None value if no roots are found
