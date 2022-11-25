@@ -41,3 +41,12 @@ darts at the sqaure and we have the following relations:
     
     returns the root found and the number of iterations to find root
     otherwise return None value if no roots are found
+    
+ ## 4. Damped Oscillator Model Fitting
+ We perform a Least-Sqaure Fitting, which the processing of optimizing a model by minimizing the chi-square value. The chi-square value is a measure of how well the model fits the actuall data and is given by:
+ 
+ $$ \chi^2 = \Sigma^{N}_{i = 0}  \frac{(y_i - f(t_i : [p]) )^2}{u_i^2} $$
+ 
+ We consider an under damped oscillator which can be modelled as
+ 
+ $$ y(t) = A + Be^{-\gamma t}cos(\\omega t - \alpha  $$
