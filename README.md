@@ -52,3 +52,8 @@ darts at the sqaure and we have the following relations:
  $$ y(t) = A + Be^{-\gamma t}cos(\\omega t - \alpha  $$
 
 We use he Levenberg - Marquardt algorithm to minimize the chi-squared value and find the parameters that optimze the fit.
+
+## Author info
+Bruce Mvubele \
+[LinkedIn](https://www.linkedin.com/in/bruce-mvubele-494105143/) \
+e-mail: cmvubele@gmail.com
