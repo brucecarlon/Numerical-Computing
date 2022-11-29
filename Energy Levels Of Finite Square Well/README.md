@@ -1,4 +1,4 @@
-The Energy Levels of the Finite Square Well
+## The Energy Levels of the Finite Square Well
 > An application of the Bisection and Secant root finding Methods
 
 Given a 1-Dimensional finite square with depth -40V we solve the Schrodinger equation 
