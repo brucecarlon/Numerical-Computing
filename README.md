@@ -1,5 +1,5 @@
 # Numerical Computing
-> A collection of numeric solutions produced throughout my undergraduate degree
+> A collection of numeric solutions produced throughout my undergraduate studies
 
 
 ## 1. The Energy Levels of the Finite Square Well
